@@ -31,7 +31,7 @@ fun_bar() {
 }
 res1() {
     print_install "Memasang Menu Packet"
-    wget https://raw.githubusercontent.com/Ilhamstoress/v3/main/bin/menu.zip
+    wget https://raw.githubusercontent.com/Ilhamstoress/v3/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
